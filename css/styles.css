@@ -1,0 +1,93 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	color: hsl(229, 6%, 66%);
+	background-color: hsl(0, 0%, 98%);
+}
+
+/*COLOR PRIMARY*/
+
+.color-primary-red {
+	color: hsl(0, 78%, 62%);
+}
+
+.color-primary-cyan {
+	color: hsl(180, 62%, 55%);
+}
+
+.color-primary-blue {
+	color: hsl(212, 86%, 64%);
+}
+
+/*COLOR NEUTRAL*/
+
+.color-neutral-dark-blue {
+	color: hsl(234, 12%, 34%);
+}
+
+.color-neutral-grayish-blue {
+	color: hsl(229, 6%, 66%);
+}
+
+.color-neutral-light-gray {
+	color: hsl(0, 0%, 98%);
+}
+
+/**/
+
+.title {
+	font-weight: bold;
+	font-size: 30px;
+	color: hsl(234, 12%, 34%);
+}
+
+/*CARD*/
+
+.card {
+	width: 300px;
+	height: 200px;
+	padding: 1.25rem;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	border: 1px solid #eee;
+	border-top-width: .25rem;
+	border-radius: .25rem;
+	box-shadow: 0 15px 20px -20px hsl(234, 12%, 34%);
+}
+
+.card-title {
+	font-weight: bold;
+	font-size: 20px;
+	color: hsl(234, 12%, 34%);
+}
+
+.card-icon {
+	width: 50px;
+}
+
+.card-supervisor {
+	border-top-color: hsl(180, 62%, 55%);
+}
+
+.card-team-builder {
+	border-top-color: hsl(0, 78%, 62%);
+}
+
+.card-karma {
+	border-top-color: hsl(34, 97%, 64%);
+}
+
+.card-calculator {
+	border-top-color: hsl(212, 86%, 64%);
+}
+
+/*FOOTER*/
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
